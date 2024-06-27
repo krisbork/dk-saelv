@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: "SF Pro Text Regular", "-apple-system", "BlinkMacSystemFont", serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0 auto 90px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-bottom: 20px;
+  }
+}
