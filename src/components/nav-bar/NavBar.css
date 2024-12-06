@@ -22,11 +22,12 @@ header h2 * {
     transition: color 200ms ease;
     cursor: pointer;
     text-decoration: none;
-}
-
-header h2 * {
     width: auto;
     height: 2rem;
+}
+
+.logo {
+    
 }
 
 header {
@@ -58,6 +59,14 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
+    header h2 * {
+        transition: color 200ms ease;
+        cursor: pointer;
+        text-decoration: none;
+        width: auto;
+        height: 1.4rem;
+    }
+    
     nav {
         background: white;
         position: absolute;

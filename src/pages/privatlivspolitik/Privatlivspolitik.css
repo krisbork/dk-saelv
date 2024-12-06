@@ -1,0 +1,11 @@
+.privacy-policy p, ul {
+    margin: 10px;
+}
+
+.privacy-policy h2, h3 {
+    margin-bottom: 10px;
+}
+
+.privacy-policy {
+    padding: 0 1em;
+}

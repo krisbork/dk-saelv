@@ -7,7 +7,7 @@ import apppic3 from "../../assets/images/apppic4.webp";
 
 function Home() {
     return (
-        <div className="container">
+        <div className="home-container container">
             <img src={logo} alt="Logo" className="logo-image"/>
             <h2 className="details-text">Din guide til tillidsstativer, gårdbutikker, vejboder og genbrug</h2>
             <div className="download-container">

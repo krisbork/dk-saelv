@@ -10,8 +10,8 @@ function NavBar() {
         <header>
             <div className="nav-body">
                 <h2 className="logo">
-                    <Link className="logo" to={"/"} onClick={() => setChecked(true)}>
-                        <img className="logo" src={logo} alt="Sælv Logo"/>
+                    <Link to={"/"} onClick={() => setChecked(true)}>
+                        <img src={logo} alt="Sælv Logo"/>
                     </Link>
                 </h2>
             </div>

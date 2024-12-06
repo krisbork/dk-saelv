@@ -13,10 +13,10 @@ export const routes = [
     //     path: "/faq",
     //     element: <Faq />,
     // },
-    // {
-    //     path: "/privatlivspolitik",
-    //     element: <Privatlivspolitik />,
-    // },
+    {
+        path: "/privatlivspolitik",
+        element: <Privatlivspolitik />,
+    },
     // {
     //     path: "/om",
     //     element: <Om />,
