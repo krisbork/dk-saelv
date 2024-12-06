@@ -11,10 +11,19 @@ function Home() {
             <img src={logo} alt="Logo" className="logo-image"/>
             <h2 className="details-text">Din guide til tillidsstativer, gårdbutikker, vejboder og genbrug</h2>
             <div className="download-container">
-                <div className="download-btn"><a href="https://apps.apple.com/dk/app/s%C3%A6lv/id6504734959">Download</a></div>
-                <p className="available-txt">Tilgængelig på iPhone og iPad</p>
+                <div className="download-buttons">
+                    <a href="https://apps.apple.com/dk/app/s%C3%A6lv/id6504734959"><img className="bn46"
+                                     src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                                     alt="bn45"/>
+                    </a>
+                    <a href="/" className="disabled-btn"><img className="bn45"
+                                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png"
+                                     alt="bn45"/>
+                    </a>
+                </div>
+                <p className="available-txt">Tilgængelig på iPhone og iPad. Kommer snart til Android</p>
             </div>
-            
+
             <div className="app-image-container">
                 <div className="app-image">
                     <h3>Overblik over Sælv</h3>
