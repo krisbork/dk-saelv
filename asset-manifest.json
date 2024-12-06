@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.67fdf179.css",
-    "main.js": "/static/js/main.0a759c58.js",
+    "main.css": "/static/css/main.883fd493.css",
+    "main.js": "/static/js/main.a02dbe59.js",
     "static/js/787.8215cc3a.chunk.js": "/static/js/787.8215cc3a.chunk.js",
     "static/media/apppic1_v2.webp": "/static/media/apppic1_v2.7339b057edb6dfbbc29e.webp",
     "static/media/apppic3_v2.webp": "/static/media/apppic3_v2.9a8f5032da2647e2d12b.webp",
@@ -9,12 +9,12 @@
     "static/media/saelv-app-logo.png": "/static/media/saelv-app-logo.de15d6fd5f3faa6f93d0.png",
     "static/media/saelv_logo_v2_small_web.svg": "/static/media/saelv_logo_v2_small_web.660184fc45b3b391a6d1ee4c1cb123b4.svg",
     "index.html": "/index.html",
-    "main.67fdf179.css.map": "/static/css/main.67fdf179.css.map",
-    "main.0a759c58.js.map": "/static/js/main.0a759c58.js.map",
+    "main.883fd493.css.map": "/static/css/main.883fd493.css.map",
+    "main.a02dbe59.js.map": "/static/js/main.a02dbe59.js.map",
     "787.8215cc3a.chunk.js.map": "/static/js/787.8215cc3a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67fdf179.css",
-    "static/js/main.0a759c58.js"
+    "static/css/main.883fd493.css",
+    "static/js/main.a02dbe59.js"
   ]
 }
