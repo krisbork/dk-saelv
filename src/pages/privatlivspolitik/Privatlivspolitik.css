@@ -9,3 +9,7 @@
 .privacy-policy {
     padding: 0 1em;
 }
+
+.privacy-policy p {
+    margin-inline: 0;
+}
