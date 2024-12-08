@@ -17,3 +17,9 @@
 .faq-item h3 {
     margin: 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .faq-item {
+        border-radius: 0;
+    }
+}
