@@ -3,7 +3,7 @@ import "./Om.css";
 
 function Om() {
     return (
-        <div className="container">
+        <div className="container om-container">
             <p>Sælv er appen til at finde og udforske tillidsstativer, gårdbutikker, vejboder og meget mere! Uanset om du søger friske råvarer, unikke håndlavede varer, genbrugsskatte eller lokalt producerede specialiteter, har vi gjort det nemt for dig at opdage og støtte lokale producenter.</p>
 
 

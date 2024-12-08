@@ -1,11 +1,11 @@
 .faq-item-container {
     gap: 1em;
     margin-top: 1em;
-    margin-inline: 1em;
+    padding-inline: 1em;
 }
 
 @media only screen and (max-width: 600px) {
     .faq-item-container {
-        margin-inline: 0;
+        padding-inline: 0;
     }
 }
