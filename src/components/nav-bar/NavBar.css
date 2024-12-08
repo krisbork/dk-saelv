@@ -18,16 +18,12 @@
     color: dodgerblue;
 }
 
-header h2 * {
+header div h2 * {
     transition: color 200ms ease;
     cursor: pointer;
     text-decoration: none;
     width: auto;
     height: 2rem;
-}
-
-.logo {
-    
 }
 
 header {
@@ -58,13 +54,17 @@ header {
     display: none;
 }
 
+.link-selected {
+    color: dodgerblue !important;
+}
+
 @media only screen and (max-width: 600px) {
-    header h2 * {
+    header div h2 * {
         transition: color 200ms ease;
         cursor: pointer;
         text-decoration: none;
         width: auto;
-        height: 1.4rem;
+        height: 1.5rem;
     }
     
     nav {

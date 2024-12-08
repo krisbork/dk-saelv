@@ -1,15 +1,16 @@
 import React, {useState} from 'react';
 import "./NavBar.css";
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import logo from "../../assets/images/saelv_logo_v2_small_web.svg"
 
 function NavBar() {
     const [isChecked, setChecked] = useState(true);
+    const { pathname } = useLocation();
     
     return (
         <header>
             <div className="nav-body">
-                <h2 className="logo">
+                <h2>
                     <Link to={"/"} onClick={() => setChecked(true)}>
                         <img src={logo} alt="Sælv Logo"/>
                     </Link>
@@ -23,9 +24,9 @@ function NavBar() {
             </label>
             <nav>
                 <ul className="nav-items">
-                    <li><Link to={"/faq"} onClick={() => setChecked(true)}>FAQ</Link></li>
-                    <li><Link to={"/privatlivspolitik"} onClick={() => setChecked(true)}>Privatlivspolitik</Link></li>
-                    <li><Link to={"/om"} onClick={() => setChecked(true)}>Om</Link></li>
+                    <li><Link className={(pathname === "/faq") ? "link-selected" : "test"} to={"/faq"} onClick={() => setChecked(true)}>FAQ</Link></li>
+                    <li><Link className={(pathname === "/privatlivspolitik") ? "link-selected" : "test"} to={"/privatlivspolitik"} onClick={() => setChecked(true)}>Privatlivspolitik</Link></li>
+                    <li><Link className={(pathname === "/om") ? "link-selected" : "test"} to={"/om"} onClick={() => setChecked(true)}>Om</Link></li>
                 </ul>
             </nav>
         </header>

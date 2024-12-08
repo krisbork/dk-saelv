@@ -1,0 +1,17 @@
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    margin: 0.4rem 0;
+    color: dimgray;
+    gap: 1em;
+    /*border-top: lightgrey 1px solid;*/
+}
+
+.vl {
+    background: dimgray;
+    opacity: 50%;
+    height: 15px;
+    width: 1px;
+}
