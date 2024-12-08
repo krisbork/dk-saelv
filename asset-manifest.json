@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc7bc26b.css",
+    "main.css": "/static/css/main.9bc07553.css",
     "main.js": "/static/js/main.47caa8bd.js",
     "static/js/787.8215cc3a.chunk.js": "/static/js/787.8215cc3a.chunk.js",
     "static/media/apppic1_v2.webp": "/static/media/apppic1_v2.7339b057edb6dfbbc29e.webp",
@@ -9,12 +9,12 @@
     "static/media/saelv-app-logo.png": "/static/media/saelv-app-logo.de15d6fd5f3faa6f93d0.png",
     "static/media/saelv_logo_v2_small_web.svg": "/static/media/saelv_logo_v2_small_web.660184fc45b3b391a6d1ee4c1cb123b4.svg",
     "index.html": "/index.html",
-    "main.fc7bc26b.css.map": "/static/css/main.fc7bc26b.css.map",
+    "main.9bc07553.css.map": "/static/css/main.9bc07553.css.map",
     "main.47caa8bd.js.map": "/static/js/main.47caa8bd.js.map",
     "787.8215cc3a.chunk.js.map": "/static/js/787.8215cc3a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc7bc26b.css",
+    "static/css/main.9bc07553.css",
     "static/js/main.47caa8bd.js"
   ]
 }
