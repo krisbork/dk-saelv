@@ -14,7 +14,7 @@ function ErrorPage() {
                 <h1>Hov!</h1>
                 <p>Undskyld, der skete en uventet fejl.</p>
                 <p>
-                    <i>{error.status || error.message}</i>
+                    <i>404</i>
                 </p>
             </div>
         </>
