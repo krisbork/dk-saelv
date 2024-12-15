@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import ErrorPage from "./pages/error/ErrorPage";
 import {routes} from "./routes/routes";
-import {hydrate, render} from "react-dom";
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
