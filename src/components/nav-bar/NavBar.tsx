@@ -24,9 +24,9 @@ function NavBar() {
             </label>
             <nav>
                 <ul className="nav-items">
-                    <li><Link className={(pathname === "/faq") ? "link-selected" : "test"} to={"/faq"} onClick={() => setChecked(true)}>FAQ</Link></li>
-                    <li><Link className={(pathname === "/privatlivspolitik") ? "link-selected" : "test"} to={"/privatlivspolitik"} onClick={() => setChecked(true)}>Privatlivspolitik</Link></li>
-                    <li><Link className={(pathname === "/om") ? "link-selected" : "test"} to={"/om"} onClick={() => setChecked(true)}>Om</Link></li>
+                    <li><Link className={(pathname === "/faq") ? "link-selected" : ""} to={"/faq"} onClick={() => setChecked(true)}>FAQ</Link></li>
+                    <li><Link className={(pathname === "/privatlivspolitik") ? "link-selected" : ""} to={"/privatlivspolitik"} onClick={() => setChecked(true)}>Privatlivspolitik</Link></li>
+                    <li><Link className={(pathname === "/om") ? "link-selected" : ""} to={"/om"} onClick={() => setChecked(true)}>Om</Link></li>
                 </ul>
             </nav>
         </header>
