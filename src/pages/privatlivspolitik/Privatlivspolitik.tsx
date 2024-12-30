@@ -35,7 +35,8 @@ function Privatlivspolitik() {
 
                 <li>Placeringsdata</li>
                 <ul>
-                    <li>Når du bruger appen vil den udelukkende spørge om lov til at bruge din placering, til at søge efter indhold i nærheden af dig. Hvis du ikke giver tilladelse, vil appen ikke kunne vise dig indhold i nærheden af dig. Alle søgninger sker ved at lave en geohash af din placering som benyttes til at søge i vores database og gemmes ikke.</li>
+                    <li>Når du bruger appen vil den udelukkende spørge om lov til at bruge din placering, til at vise den på kortet. Hvis du ikke giver tilladelse, vil appen ikke automatisk ændre kortet til at vise området nær dig.</li>
+                    <li>Alle søgninger sker ved at der udregnes en geohash af det synlige område på kortet i appen og denne benyttes til at søge i vores database og gemmes ikke. Den udregnede geohash har ingen direkte forbindelse til din placering.</li>
                     <li>Vi indsamler aldrig data om din placering, hverken præcis eller grov. Det betyder, at vi ikke tracker, hvor du befinder dig, hverken gennem din enhed, netværksforbindelse eller nogen anden metode.</li>
                 </ul>
             </ul>

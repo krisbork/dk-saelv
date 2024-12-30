@@ -2,13 +2,3 @@
     gap: 1em;
     padding-inline: 1em;
 }
-
-@media only screen and (max-width: 600px) {
-    .faq-item-container {
-        padding-inline: 0;
-    }
-    
-    .faq-item-container h1 {
-        padding-inline: 0.5em;
-    }
-}
