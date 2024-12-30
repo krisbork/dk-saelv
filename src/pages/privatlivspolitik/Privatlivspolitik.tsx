@@ -6,7 +6,7 @@ function Privatlivspolitik() {
         <div className="container privacy-policy">
             <h1>Privatlivspolitik</h1>
 
-            <i>Senest opdateret: 6. december 2024</i>
+            <i>Senest opdateret: 30. december 2024</i>
 
             <p>Vi hos Sælv tager dit privatliv meget alvorligt og er forpligtet til at beskytte dine personlige data. Denne privatlivspolitik forklarer, hvordan vi indsamler, bruger og beskytter dine oplysninger, når du bruger vores app.</p>
 
